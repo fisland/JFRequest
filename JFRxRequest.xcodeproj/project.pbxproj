@@ -14,6 +14,13 @@
 		2BC1F5C52248B92E0072BC42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC1F5C32248B92E0072BC42 /* LaunchScreen.storyboard */; };
 		2BC1F5D02248B92E0072BC42 /* JFRxRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5CF2248B92E0072BC42 /* JFRxRequestTests.swift */; };
 		2BC1F5DB2248B92E0072BC42 /* JFRxRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5DA2248B92E0072BC42 /* JFRxRequestUITests.swift */; };
+		2BC1F5EA2248BAD20072BC42 /* JFHTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5E92248BAD20072BC42 /* JFHTTPService.swift */; };
+		2BC1F5EC2248BAFB0072BC42 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5EB2248BAFA0072BC42 /* ErrorResponse.swift */; };
+		2BC1F5F22248BFED0072BC42 /* DoubanAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5F12248BFED0072BC42 /* DoubanAPI.swift */; };
+		2BC1F5F62248C0090072BC42 /* TestAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5F52248C0090072BC42 /* TestAPi.swift */; };
+		2BC1F5F82248C4120072BC42 /* testModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5F72248C4120072BC42 /* testModel.swift */; };
+		2BC1F5FA2248D2DF0072BC42 /* ChannelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1F5F92248D2DF0072BC42 /* ChannelViewCell.swift */; };
+		EA26B0798F6560693939B506 /* Pods_JFRxRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2066A7609189B21BAA5E0B /* Pods_JFRxRequest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,15 @@
 		2BC1F5D62248B92E0072BC42 /* JFRxRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFRxRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC1F5DA2248B92E0072BC42 /* JFRxRequestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFRxRequestUITests.swift; sourceTree = "<group>"; };
 		2BC1F5DC2248B92E0072BC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC1F5E92248BAD20072BC42 /* JFHTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFHTTPService.swift; sourceTree = "<group>"; };
+		2BC1F5EB2248BAFA0072BC42 /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		2BC1F5F12248BFED0072BC42 /* DoubanAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanAPI.swift; sourceTree = "<group>"; };
+		2BC1F5F52248C0090072BC42 /* TestAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPi.swift; sourceTree = "<group>"; };
+		2BC1F5F72248C4120072BC42 /* testModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testModel.swift; sourceTree = "<group>"; };
+		2BC1F5F92248D2DF0072BC42 /* ChannelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewCell.swift; sourceTree = "<group>"; };
+		3D1CAC48F3CE0F950BD6822C /* Pods-JFRxRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFRxRequest.debug.xcconfig"; path = "Target Support Files/Pods-JFRxRequest/Pods-JFRxRequest.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2066A7609189B21BAA5E0B /* Pods_JFRxRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFRxRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5F0D11AC58E2E06E3243AB /* Pods-JFRxRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFRxRequest.release.xcconfig"; path = "Target Support Files/Pods-JFRxRequest/Pods-JFRxRequest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA26B0798F6560693939B506 /* Pods_JFRxRequest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006F678F398BCDF35C5E3582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D1CAC48F3CE0F950BD6822C /* Pods-JFRxRequest.debug.xcconfig */,
+				EB5F0D11AC58E2E06E3243AB /* Pods-JFRxRequest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2BC1F5AE2248B92B0072BC42 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				2BC1F5CE2248B92E0072BC42 /* JFRxRequestTests */,
 				2BC1F5D92248B92E0072BC42 /* JFRxRequestUITests */,
 				2BC1F5B82248B92B0072BC42 /* Products */,
+				006F678F398BCDF35C5E3582 /* Pods */,
+				B3DD4017D97CCCE51EF58A41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +125,16 @@
 		2BC1F5B92248B92B0072BC42 /* JFRxRequest */ = {
 			isa = PBXGroup;
 			children = (
+				2BC1F5F02248BE410072BC42 /* HTTPAPI */,
+				2BC1F5EF2248BE390072BC42 /* RequestConfig */,
 				2BC1F5BA2248B92B0072BC42 /* AppDelegate.swift */,
 				2BC1F5BC2248B92B0072BC42 /* ViewController.swift */,
+				2BC1F5F92248D2DF0072BC42 /* ChannelViewCell.swift */,
 				2BC1F5BE2248B92B0072BC42 /* Main.storyboard */,
 				2BC1F5C12248B92D0072BC42 /* Assets.xcassets */,
 				2BC1F5C32248B92E0072BC42 /* LaunchScreen.storyboard */,
 				2BC1F5C62248B92E0072BC42 /* Info.plist */,
+				2BC1F5F72248C4120072BC42 /* testModel.swift */,
 			);
 			path = JFRxRequest;
 			sourceTree = "<group>";
@@ -125,6 +157,32 @@
 			path = JFRxRequestUITests;
 			sourceTree = "<group>";
 		};
+		2BC1F5EF2248BE390072BC42 /* RequestConfig */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1F5E92248BAD20072BC42 /* JFHTTPService.swift */,
+				2BC1F5EB2248BAFA0072BC42 /* ErrorResponse.swift */,
+			);
+			path = RequestConfig;
+			sourceTree = "<group>";
+		};
+		2BC1F5F02248BE410072BC42 /* HTTPAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1F5F12248BFED0072BC42 /* DoubanAPI.swift */,
+				2BC1F5F52248C0090072BC42 /* TestAPi.swift */,
+			);
+			path = HTTPAPI;
+			sourceTree = "<group>";
+		};
+		B3DD4017D97CCCE51EF58A41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF2066A7609189B21BAA5E0B /* Pods_JFRxRequest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BC1F5DF2248B92E0072BC42 /* Build configuration list for PBXNativeTarget "JFRxRequest" */;
 			buildPhases = (
+				BBCA7C37C81466881963C9F6 /* [CP] Check Pods Manifest.lock */,
 				2BC1F5B32248B92B0072BC42 /* Sources */,
 				2BC1F5B42248B92B0072BC42 /* Frameworks */,
 				2BC1F5B52248B92B0072BC42 /* Resources */,
+				5D8FC7E7710412651151C5F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +311,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D8FC7E7710412651151C5F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JFRxRequest/Pods-JFRxRequest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CleanJSON/CleanJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/KafkaRefresh/KafkaRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CleanJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KafkaRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JFRxRequest/Pods-JFRxRequest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBCA7C37C81466881963C9F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JFRxRequest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BC1F5B32248B92B0072BC42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BC1F5BD2248B92B0072BC42 /* ViewController.swift in Sources */,
+				2BC1F5F82248C4120072BC42 /* testModel.swift in Sources */,
+				2BC1F5F22248BFED0072BC42 /* DoubanAPI.swift in Sources */,
+				2BC1F5F62248C0090072BC42 /* TestAPi.swift in Sources */,
+				2BC1F5FA2248D2DF0072BC42 /* ChannelViewCell.swift in Sources */,
+				2BC1F5EA2248BAD20072BC42 /* JFHTTPService.swift in Sources */,
 				2BC1F5BB2248B92B0072BC42 /* AppDelegate.swift in Sources */,
+				2BC1F5EC2248BAFB0072BC42 /* ErrorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +561,7 @@
 		};
 		2BC1F5E02248B92E0072BC42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1CAC48F3CE0F950BD6822C /* Pods-JFRxRequest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +580,7 @@
 		};
 		2BC1F5E12248B92E0072BC42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5F0D11AC58E2E06E3243AB /* Pods-JFRxRequest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

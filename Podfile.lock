@@ -1,0 +1,92 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CleanJSON (0.6.4)
+  - KafkaRefresh (1.3.0):
+    - KafkaRefresh/Category (= 1.3.0)
+    - KafkaRefresh/Configuration (= 1.3.0)
+    - KafkaRefresh/Core (= 1.3.0)
+    - KafkaRefresh/Default (= 1.3.0)
+    - KafkaRefresh/Style (= 1.3.0)
+    - KafkaRefresh/UIKit (= 1.3.0)
+  - KafkaRefresh/Category (1.3.0)
+  - KafkaRefresh/Configuration (1.3.0):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.3.0):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.3.0):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.3.0)
+  - KafkaRefresh/UIKit (1.3.0):
+    - KafkaRefresh/UIKit/FootKit (= 1.3.0)
+    - KafkaRefresh/UIKit/HeadKit (= 1.3.0)
+    - KafkaRefresh/UIKit/LayerKit (= 1.3.0)
+  - KafkaRefresh/UIKit/FootKit (1.3.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.3.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.3.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - Result (4.1.0)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.2)
+  - CleanJSON
+  - KafkaRefresh (~> 1.3.0)
+  - Moya/RxSwift (~> 12.0)
+  - "NSObject+Rx (~> 4.0)"
+  - RxCocoa (~> 4.4.1)
+  - RxSwift (~> 4.4.1)
+  - SwiftyJSON (~> 4.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CleanJSON
+    - KafkaRefresh
+    - Moya
+    - "NSObject+Rx"
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CleanJSON: ab7818bd1b4e61561d2154d5d4780e916510ea31
+  KafkaRefresh: 49c022888ee6444461f8c9599567e2b7dbc23f4d
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: a8103417dffa5f20de632c05b962dd27c9c8688e
+
+COCOAPODS: 1.6.0.rc.2
